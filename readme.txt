@@ -11,12 +11,13 @@ A single search box, that lets you search many different things.
 
 == Description ==
 
-Why install the whole package, if you're just interested in one module?!
-Jetpack Omnisearch, is this one module, and Jetpack is the whole package.
+Search your posts, comments, media, and plugins all at once, from a signle search box. Even plugins from WordPress.org will show up in search results.
+
+[Jetpack](http://wordpress.org/plugins/jetpack/) is a plugin that ships with many modules. Why install the whole package, if you're just interested in one module?!
 
 This plugin is the exact Omnisearch module of the original Jetpack plugin, only without all the extra stuff.
 
-The version number of this plugin will follow the version number of Jetpack. This way, it's easier for you know which Jetpack version this module was extracted from.
+The version number of this plugin will follow the version number of Jetpack. This way, it's easier for you to know which Jetpack version this module was extracted from.
 
 Things you'd be happy to know:
 
