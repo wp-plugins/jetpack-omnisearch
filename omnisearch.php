@@ -3,7 +3,7 @@
 /*
  * Plugin Name: Jetpack Omnisearch
  * Plugin URI: http://wordpress.org/plugins/jetpack-omnisearch/
- * Description: A single search box, that lets you search many different things.
+ * Description: A single search box, that lets you search many different things. <a href="admin.php?page=omnisearch">Start Searching</a>
  * Author: Anas H. Sulaiman
  * Version: 2.5
  * Author URI: http://ahs.pw/

@@ -28,6 +28,12 @@ Things you'd be happy to know:
 Note: Translations was not included, due to the fact that Jetpack uses one transaltion file for all the modules, which makes it really difficult to extract translations.
 The good news is that the module can be translated easily.
 
+** You may also like **
+
+* [Jetpack Gravatar Hovercards](http://wordpress.org/plugins/jetpack-gravatar-hovercards/) - Show a pop-up business card of your users' gravatar profiles in comments.
+* [Jetpack Widget Visibility](http://wordpress.org/plugins/jetpack-widget-visibility/) - Control what pages your widgets appear on.
+* [Jetpack Sharing](http://wordpress.org/plugins/jetpack-sharing/) - The most super duper sharing tool on the interwebs. Share content with Facebook, Twitter, and many more.
+
 == Installation ==
 
 1. Install Jetpack Omnisearch either via the WordPress.org plugin directory, or by uploading the files to your server.
