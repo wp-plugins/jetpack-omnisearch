@@ -2,8 +2,8 @@
 Contributors: ahspw
 Tags: search, jetpack
 Requires at least: 3.5
-Tested up to: 3.8
-Stable tag: 2.7
+Tested up to: 3.8.1
+Stable tag: 2.9
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -56,7 +56,15 @@ The good news is that the module can be translated easily.
 
 == Changelog ==
 
-= 2.5 =
-* Initial release
+= 2.9 =
+
+* Update to 2.9:
+* Genericons: Update to v3.0.3
+
 = 2.7 =
-* Updated to Jetpack 2.7
+
+* Update to 2.7
+
+= 2.5 =
+
+* Initial release

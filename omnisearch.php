@@ -5,7 +5,7 @@
  * Plugin URI: http://wordpress.org/plugins/jetpack-omnisearch/
  * Description: A single search box, that lets you search many different things. <a href="admin.php?page=omnisearch">Start Searching</a>
  * Author: Anas H. Sulaiman
- * Version: 2.7
+ * Version: 2.9
  * Author URI: http://ahs.pw/
  * Text Domain: jetpack-omnisearch
  * Domain Path: /languages/
@@ -20,6 +20,7 @@
  * First Introduced: 2.3
  * Requires Connection: No
  * Auto Activate: Yes
+ * Module Tags: Developers
  */
 
 // Only do Jetpack Omnisearch if there isn't already a Core WP_Omnisearch Class.
@@ -33,6 +34,4 @@ function omnisearch_load_textdomain() {
 
 /*
 * Edits are denoted by the comment: Edited by Anas H. Sulaiman.
-* Other edits are listed here:
-* Edit 1: 
 */
