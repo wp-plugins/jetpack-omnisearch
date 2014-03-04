@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Jetpack Omnisearch v2.5\n"
+"Project-Id-Version: Jetpack Omnisearch v2.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2013-10-23 13:47:57+0000\n"
+"PO-Revision-Date: 2014-03-04 05:24:12+0000\n"
 "Last-Translator: Anas H. Sulaiman <anas@ahs.pw>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -50,7 +50,7 @@ msgstr "النتائج:"
 #: omnisearch/omnisearch-core.php:100
 #@ jetpack-omnisearch
 msgid "Jump to:"
-msgstr "القفز إلى:"
+msgstr "اذهب إلى:"
 
 #: omnisearch/omnisearch-core.php:111
 #@ jetpack-omnisearch
@@ -63,6 +63,7 @@ msgid "Search Everything"
 msgstr "ابحث في كل مكان"
 
 #: omnisearch/omnisearch-core.php:160
+#: omnisearch.php:40
 #@ jetpack-omnisearch
 msgid "Search"
 msgstr "ابحث"
@@ -165,7 +166,7 @@ msgstr ""
 #: omnisearch.php:0
 #@ jetpack-omnisearch
 msgid "A single search box, that lets you search many different things."
-msgstr "مربع بحث واحد، يسمح لك بالبحث في العديد من الأشياء."
+msgstr "مربع بحث واحد، يمكنك من البحث في العديد من الأشياء."
 
 #. translators: plugin header field 'Author'
 #: omnisearch.php:0
@@ -179,9 +180,15 @@ msgstr "أنس هشام سليمان"
 msgid "http://ahs.pw/"
 msgstr ""
 
+#. translators: plugin header field 'PluginURI'
+#: omnisearch.php:0
+#@ jetpack-omnisearch
+msgid "http://wordpress.org/plugins/jetpack-omnisearch/"
+msgstr ""
+
 #. translators: plugin header field 'Version'
 #: omnisearch.php:0
 #@ jetpack-omnisearch
-msgid "1.0"
+msgid "2.9"
 msgstr ""
 

@@ -3,7 +3,7 @@
 /*
  * Plugin Name: Jetpack Omnisearch
  * Plugin URI: http://wordpress.org/plugins/jetpack-omnisearch/
- * Description: A single search box, that lets you search many different things. <a href="admin.php?page=omnisearch">Start Searching</a>
+ * Description: A single search box, that lets you search many different things.
  * Author: Anas H. Sulaiman
  * Version: 2.9
  * Author URI: http://ahs.pw/
@@ -27,11 +27,26 @@
 if ( ! class_exists( 'WP_Omnisearch' ) )
 	require_once( dirname( __FILE__ ) . '/omnisearch/omnisearch-core.php' );
 
-add_action( 'plugins_loaded', 'omnisearch_load_textdomain' ); // Edited by Anas H. Sulaiman
-function omnisearch_load_textdomain() {
+// E-1 {
+function jetpack_omnisearch_load_textdomain() {
 	load_plugin_textdomain( 'jetpack-omnisearch', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
-} // Edited by Anas H. Sulaiman
+}
+add_action( 'plugins_loaded', 'jetpack_omnisearch_load_textdomain' );
+// }
+
+// E-2 {
+function jetpack_omnisearch_link($actions) {
+	return array_merge(
+		array( 'settings' => sprintf( '<a href="%s">%s</a>', 'admin.php?page=omnisearch', __( 'Search', 'jetpack-omnisearch' ) ) ),
+		$actions
+	);
+	return $actions;
+}
+add_filter('plugin_action_links_' . plugin_basename(__FILE__), 'jetpack_omnisearch_link' );
+// }
 
 /*
-* Edits are denoted by the comment: Edited by Anas H. Sulaiman.
+Edits by Anas H. Sulaiman:
+E-1 : load text domain
+E-2 : add search link
 */
