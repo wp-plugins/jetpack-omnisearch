@@ -5,7 +5,7 @@
  * Plugin URI: http://wordpress.org/plugins/jetpack-omnisearch/
  * Description: A single search box, that lets you search many different things.
  * Author: Anas H. Sulaiman
- * Version: 2.9
+ * Version: 2.9.3
  * Author URI: http://ahs.pw/
  * Text Domain: jetpack-omnisearch
  * Domain Path: /languages/

@@ -121,7 +121,6 @@ class Jetpack_Omnisearch_Posts extends WP_List_Table {
 }
 
 /*
-* Edits are denoted by the comment: Edited by Anas H. Sulaiman.
-* Other edits are listed here:
-* Edit 1: replaced text domain
+Edits by Anas H. Sulaiman:
+E-1: replaced text domain
 */

@@ -1,8 +1,8 @@
 <?php
 
-require_once( dirname(__FILE__) . '/class.jetpack-user-agent.php'    ); // Edited by Anas H. Sulaiman
-require_once( dirname(__FILE__) . '/_inc/genericons.php' ); // Edited by Anas H. Sulaiman
-jetpack_register_genericons(); // Edited by Anas H. Sulaiman
+require_once( dirname(__FILE__) . '/class.jetpack-user-agent.php'    );
+require_once( dirname(__FILE__) . '/_inc/genericons.php' );
+jetpack_register_genericons();
 // Include this here so that other plugins can extend it if they like.
 require_once( dirname(__FILE__) . '/omnisearch-posts.php' );
 
@@ -14,7 +14,7 @@ class Jetpack_Omnisearch {
 		self::$instance = $this;
 		add_action( 'wp_loaded',          array( $this, 'wp_loaded' ) );
 		add_action( 'admin_init',         array( $this, 'add_providers' ) );
-		// add_action( 'jetpack_admin_menu', array( $this, 'jetpack_admin_menu' ) ); // Edited by Anas H. Sulaiman
+		// add_action( 'jetpack_admin_menu', array( $this, 'jetpack_admin_menu' ) ); // E-2
 		add_action( 'admin_menu',         array( $this, 'admin_menu' ), 20 );
 		if( ! jetpack_is_mobile() ) {
 			add_action( 'admin_bar_menu', array( $this, 'admin_bar_search' ), 4 );
@@ -61,7 +61,7 @@ class Jetpack_Omnisearch {
 	// 	remove_submenu_page( 'index.php', 'omnisearch' );
 	// 	$this->slug = add_submenu_page( 'jetpack', __('Omnisearch', 'jetpack'), __('Omnisearch', 'jetpack'), 'edit_posts', 'omnisearch', array( $this, 'omnisearch_page' ) );
 	// 	add_action( "admin_print_styles-{$this->slug}", array( $this, 'admin_print_styles_jetpack' ) );
-	// } // Edited by Anas H. Sulaiman
+	// } // E-2
 
 	function admin_menu() {
 		$this->slug = add_dashboard_page( __('Omnisearch', 'jetpack-omnisearch'), __('Omnisearch', 'jetpack-omnisearch'), 'edit_posts', 'omnisearch', array( $this, 'omnisearch_page' ) );
@@ -70,7 +70,7 @@ class Jetpack_Omnisearch {
 
 	function admin_print_styles() {
 		wp_enqueue_style( 'omnisearch-admin' );
-		wp_enqueue_style( 'omnisearch-jetpack' ); // Edited by Anas H. Sulaiman
+		wp_enqueue_style( 'omnisearch-jetpack' ); // E-2
 	}
 
 	function admin_print_styles_jetpack() {
@@ -189,7 +189,7 @@ class Jetpack_Omnisearch {
 new Jetpack_Omnisearch;
 
 /*
-* Edits are denoted by the comment: Edited by Anas H. Sulaiman.
-* Other edits are listed here:
-* Edit 1: replaced text domain
+Edits by Anas H. Sulaiman:
+E-1: replaced text domain
+E-2: disconnect from Jetpack
 */
