@@ -1,8 +1,6 @@
 <?php
 
-require_once( dirname(__FILE__) . '/class.jetpack-user-agent.php'    );
-require_once( dirname(__FILE__) . '/_inc/genericons.php' );
-jetpack_register_genericons();
+require_once( dirname(__FILE__) . '/class.jetpack-user-agent.php'    ); // E-2
 // Include this here so that other plugins can extend it if they like.
 require_once( dirname(__FILE__) . '/omnisearch-posts.php' );
 
@@ -48,6 +46,9 @@ class Jetpack_Omnisearch {
 	}
 
 	function wp_loaded() {
+		require_once( dirname(__FILE__) . '/_inc/genericons.php' ); // E-2
+		jetpack_register_genericons(); // E-2
+
 		$deps = null;
 		if ( wp_style_is( 'genericons', 'registered' ) ) {
 			$deps = array( 'genericons' );
@@ -73,10 +74,10 @@ class Jetpack_Omnisearch {
 		wp_enqueue_style( 'omnisearch-jetpack' ); // E-2
 	}
 
-	function admin_print_styles_jetpack() {
-		wp_enqueue_style( 'omnisearch-admin' );
-		wp_enqueue_style( 'omnisearch-jetpack' );
-	}
+	// function admin_print_styles_jetpack() {
+	// 	wp_enqueue_style( 'omnisearch-admin' );
+	// 	wp_enqueue_style( 'omnisearch-jetpack' );
+	// } // E-2
 
 	function omnisearch_page() {
 		$results = array();
