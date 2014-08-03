@@ -1,9 +1,9 @@
-=== Jetpack Omnisearch ===
+=== JP Omnisearch ===
 Contributors: ahspw
 Tags: search, jetpack
 Requires at least: 3.5
 Tested up to: 3.9.1
-Stable tag: 3.0.1
+Stable tag: 3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -21,7 +21,7 @@ Search your posts, comments, media, and plugins all at once, from a signle searc
 = Using Omnisearch =
 
 Using Omnisearch is remarkably easy. Just search!  
-If you’re in your WordPress Admin Panel, you can use the search bar in the WordPress Admin Bar (top right, just beyond your User Menu), or go to Jetpack → Omnisearch and start from there.  
+If you’re in your WordPress Admin Panel, you can use the search bar in the WordPress Admin Bar (top right, just beyond your User Menu), or go to Dashboard → Omnisearch and start from there.  
 Please note that the Search field on the WordPress Admin Bar will only Omnisearch from the back-end of your site, as the front-end already has a search field there to perform a site search natively, and we didn’t want to change that for you.
 
 = Notes = 
@@ -43,15 +43,15 @@ The good news is that the module can be translated easily.
 
 = You may also like =
 
-* [Jetpack Sharing](http://wordpress.org/plugins/jetpack-sharing/) - Share content with Facebook, Twitter, and many more.
-* [Jetpack Widget Visibility](http://wordpress.org/plugins/jetpack-widget-visibility/) - Control what pages your widgets appear on.
-* [Jetpack Gravatar Hovercards](http://wordpress.org/plugins/jetpack-gravatar-hovercards/) - Show a pop-up business card of your users' gravatar profiles in comments.
-* [Jetpack Markdown](http://wordpress.org/plugins/jetpack-markdown/) - Write in Markdown, publish in HTML.
+* [JP Sharing](http://wordpress.org/plugins/jetpack-sharing/) - Share content with Facebook, Twitter, and many more.
+* [JP Widget Visibility](http://wordpress.org/plugins/jetpack-widget-visibility/) - Control what pages your widgets appear on.
+* [JP Gravatar Hovercards](http://wordpress.org/plugins/jetpack-gravatar-hovercards/) - Show a pop-up business card of your users' gravatar profiles in comments.
+* [JP Markdown](http://wordpress.org/plugins/jetpack-markdown/) - Write in Markdown, publish in HTML.
 
 == Installation ==
 
-1. Install Jetpack Omnisearch either via the WordPress.org plugin directory, or by uploading the files to your server.
-2. Activate Jetpack Omnisearch through the 'Plugins' menu in WordPress.
+1. Install JP Omnisearch either via the WordPress.org plugin directory, or by uploading the files to your server.
+2. Activate JP Omnisearch through the 'Plugins' menu in WordPress.
 3. That's it. You're ready to go!
 
 == Screenshots ==
@@ -61,6 +61,12 @@ The good news is that the module can be translated easily.
 3. Search results
 
 == Changelog ==
+
+= 3.1 =
+
+* Update to 3.1
+* Improved RTL support
+* Updated Genericons to version 3.1, new icons for website, ellipsis, foursquare, x-post, sitemap, hierarchy and paintbrush.
 
 = 3.0.1 =
 
@@ -82,3 +88,8 @@ The good news is that the module can be translated easily.
 = 2.5 =
 
 * Initial release
+
+== Upgrade Notice ==
+
+= 3.1 =
+Nothing new!
