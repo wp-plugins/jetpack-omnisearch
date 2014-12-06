@@ -13,6 +13,8 @@ Search your entire database from a single field in your Dashboard.
 
 Just the [Omnisearch module](http://jetpack.me/support/omnisearch/) from [Jetpack](http://wordpress.org/plugins/jetpack/).
 
+*No support* will be provided unless the issue cannot be reproduced using the original [Jetpack](http://wordpress.org/plugins/jetpack/) module.
+
 [Download Translations](https://downloads.wordpress.org/plugin/jetpack-omnisearch.zip).
 
 = JP Family =
