@@ -2,8 +2,8 @@
 Contributors: wpjp
 Tags: search, jetpack
 Requires at least: 3.5
-Tested up to: 4.0
-Stable tag: 3.2
+Tested up to: 4.0.1
+Stable tag: 3.2.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,8 +13,7 @@ Search your entire database from a single field in your Dashboard.
 
 Just the [Omnisearch module](http://jetpack.me/support/omnisearch/) from [Jetpack](http://wordpress.org/plugins/jetpack/).
 
-= Translations =
-Translations are not included in this plugin. Though, you can easily translate this plugin if you are interested enough.
+[Download Translations](https://downloads.wordpress.org/plugin/jetpack-omnisearch.zip).
 
 = JP Family =
 
@@ -26,6 +25,10 @@ Translations are not included in this plugin. Though, you can easily translate t
 * [JP Omnisearch](http://wordpress.org/plugins/jetpack-omnisearch/) - A single search box, that lets you search many different things.
 
 == Changelog ==
+
+= 3.2.1 =
+
+* Update to 3.2.1
 
 = 3.2 =
 
