@@ -2,8 +2,8 @@
 Contributors: wpjp
 Tags: search, jetpack
 Requires at least: 3.5
-Tested up to: 4.0.1
-Stable tag: 3.2.1
+Tested up to: 4.1.1
+Stable tag: 3.4.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -27,6 +27,11 @@ Just the [Omnisearch module](http://jetpack.me/support/omnisearch/) from [Jetpac
 * [JP Omnisearch](http://wordpress.org/plugins/jetpack-omnisearch/) - A single search box, that lets you search many different things.
 
 == Changelog ==
+
+= 3.4.1 =
+
+* Enhancement : Add all Custom Post Types to Omnisearch
+* Bug Fix: Omnisearch: Some installs not properly reporting WP version number, causing Omnisearch error
 
 = 3.2.1 =
 
