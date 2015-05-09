@@ -1,9 +1,9 @@
 === JP Omnisearch ===
 Contributors: wpjp
-Tags: search, jetpack
+Tags: search, jetpack, adopt-me
 Requires at least: 3.5
-Tested up to: 4.1.1
-Stable tag: 3.4.1
+Tested up to: 4.2.1
+Stable tag: 3.5.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,17 +11,15 @@ Search your entire database from a single field in your Dashboard.
 
 == Description ==
 
->>**Retiring on June 2015**
+>**Retiring on June 2015**
 
->>JP plugins will not be maintained after the end of June 2015.
->>Thanks for everyone who used these plugins.
->>Speical thanks for those who gave good ratings.
+>JP plugins will not be maintained after the end of June 2015.
+>Thanks for everyone who used these plugins.
+>Speical thanks for those who gave good ratings.
 
 Just the [Omnisearch module](http://jetpack.me/support/omnisearch/) from [Jetpack](http://wordpress.org/plugins/jetpack/).
 
 *No support* will be provided unless the issue cannot be reproduced using the original [Jetpack](http://wordpress.org/plugins/jetpack/) module.
-
-[Download Translations](https://downloads.wordpress.org/plugin/jetpack-omnisearch.zip).
 
 = JP Family =
 
@@ -33,6 +31,10 @@ Just the [Omnisearch module](http://jetpack.me/support/omnisearch/) from [Jetpac
 * [JP Omnisearch](http://wordpress.org/plugins/jetpack-omnisearch/) - A single search box, that lets you search many different things.
 
 == Changelog ==
+
+= 3.5.3 =
+
+* Security Hardening: Remove Genericons example.html file.
 
 = 3.4.1 =
 
